@@ -1,2 +1,11 @@
-console.warn( 'bomb!!! from bin/index.js' );
-require( '../lib/cli/main');
+#!/usr/bin/env node
+
+'use strict';
+
+console.warn( `
+BOMB!!! from bin/index.js
+
+ha! ha!
+
+this command do nothing !!! 
+` );

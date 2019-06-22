@@ -1,13 +1,19 @@
 {
   "name": "bombjs",
-  "version": "0.0.5",
+  "version": "0.0.8",
   "description": "",
-  "main": "bomb.js",
-  "bin": "lib/bomb",
+  "main": "dist/bomb.js",
+  "bin": "bin/bomb",
   "repository": "https://github.com/hedrall/bombjs.git",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "author": "",
-  "license": "ISC"
+  "author": "hedrall",
+  "license": "ISC",
+  "devDependencies": {
+    "ts-loader": "^6.0.4",
+    "typescript": "^3.5.2",
+    "webpack": "^4.35.0",
+    "webpack-cli": "^3.3.4"
+  }
 }
