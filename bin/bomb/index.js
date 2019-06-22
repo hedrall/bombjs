@@ -1,1 +1,1 @@
-console.warn( 'bomb!!! from lib/main.js' );
+console.warn( 'bomb!!! from bin/index.js' );
