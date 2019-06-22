@@ -1,1 +1,1 @@
-console.log( 'BOMB!!!' );
+console.warn( 'bomb!!! from lib/main.js' );
