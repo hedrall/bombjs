@@ -1,0 +1,58 @@
+button {
+  display: none;
+}
+
+button.bomb {
+  display: block;
+  background-image: url( '../assets/bomb.svg' );
+  background-repeat: no-repeat;
+
+  width: 100px;
+  height: 100px;
+  border: none;
+  color: transparent;
+}
+
+.bomb-message {
+  color: #ff3131;
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  background: #0000004a;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 42px;
+  white-space: nowrap;
+
+  animation-name: bomb;
+  animation-duration: 2s;
+  animation-fill-mode: forwards;
+}
+
+@keyframes bomb {
+  0% {
+    font-size: 1px;
+    opacity: 0;
+  }
+  80% {
+
+    opacity: 1;
+  }
+  100% {
+    font-size: 26vw;
+    opacity: 0;
+  }
+}
+
+@-webkit-keyframes play {
+  from { background-position: 0px; }
+  to { background-position: -6400px; }
+}
+
+@-moz-keyframes play {
+  from { background-position: 0px; }
+  to { background-position: -6400px; }
+}
