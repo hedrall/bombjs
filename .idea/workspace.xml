@@ -89,6 +89,7 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../../vagrant_work/apps/angular/potaufeu2/node_modules/@angular/cli/bin" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="$USER_HOME$/.anyenv/envs/ndenv/shims/node" />
