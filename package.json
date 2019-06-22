@@ -9,7 +9,7 @@
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "hedrall",
-  "license": "ISC",
+  "license": "MIT",
   "devDependencies": {
     "css-loader": "^3.0.0",
     "node-sass": "^4.12.0",
