@@ -1,2 +1,2 @@
 console.warn( 'bomb!!! from bin/index.js' );
-require( '../lib/cli/mian');
+require( '../lib/cli/main');
